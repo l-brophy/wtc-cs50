@@ -1,11 +1,11 @@
 expression = input("enter calculation: ").split(" ")
 x, y = float(expression[0]), float(expression[2])
 
-rename_this = {
+arithmetic = {
     "+": x + y,
     "-": x - y,
     "*": x * y,
     "/": x / y
 }
 
-print(rename_this.get(expression[1]))
+print(arithmetic.get(expression[1]))
