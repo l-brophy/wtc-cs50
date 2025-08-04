@@ -20,8 +20,8 @@ def main():
                 score += 1
                 break
             else:
-                print("EEE")
                 incorrect_answers += 1
+                print("EEE")
         
         if incorrect_answers == 3:
             print(f"{x} + {y} = {sum(question)}")
